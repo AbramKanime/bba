@@ -36,6 +36,6 @@ header a:hover, .active-link {
     width: 30%;
 }
 
-.layout, .dashboard {
+main, .dashboard {
     border: 1px solid black;
 }
