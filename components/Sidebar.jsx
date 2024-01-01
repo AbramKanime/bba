@@ -7,7 +7,7 @@ export default function Sidebar() {
         console.log('toggled')
     }
     return (
-        <div>
+        <div className="sidebar">
             <header>
                 <h2>bba_Co-operative</h2>
                 <FaBars id="menu-bar-show" onClick={toggle} />

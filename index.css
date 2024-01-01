@@ -5,6 +5,7 @@ html, body {
 
 body {
     padding: 10px;
+    color: black;
 }
 
 header a:hover, .active-link {
@@ -28,4 +29,13 @@ header a:hover, .active-link {
 
 .flex-align {
     align-items: center;
+}
+
+.sidebar {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.layout, .dashboard {
+    border: 1px solid black;
 }

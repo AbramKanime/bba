@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar"
 
 export default function Layout() {
     return (
-        <main className="flex flex-column">
+        <main className="layout">
             <Sidebar />
             <Outlet />
         </main>
