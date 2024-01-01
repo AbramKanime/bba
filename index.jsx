@@ -1,9 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Layout from './components/Sidebar'
 
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

@@ -1,1 +1,31 @@
-body { }
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10px;
+}
+
+header a:hover, .active-link {
+    color: #ffc300;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* utility styles */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-align {
+    align-items: center;
+}
